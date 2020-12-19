@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #app {
+        font-family: system-ui;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .column-menu-wrapper {
+        width: 190px;
+        height: 350px;
+        border-radius: 5px;
+        background-color: rgb(46, 46, 63);
+        margin: 2px
+    }
+
+    .simple {
+        background-color: rgb(243, 214, 51);
+        border-bottom-color: rgb(219, 193, 44);
+    }
+
+    .standard {
+        background-color: rgb(74, 207, 189) ;
+        border-bottom-color: rgb(60, 170, 155);
+    }
+    .ultimate{
+        background-color: rgb(123, 93, 168);
+        border-bottom-color: rgb(104, 80, 141);
+    }
+
+    .menu-title {
+        border-radius: 3px;
+        border-bottom-style: inset;
+        color: white;
+        font-size: 18px;
+        font-family: system-ui;
+        font-weight: bold;
+        height: 10%;
+        position: relative;
+    }
+
+    .menu-price {
+        height: 30%;
+        position: relative;
+    }
+
+    .border {
+        border-top-style: solid;
+        border-top-width: thin;
+        border-top-color: rgb(179, 174, 174);
+        border-color: rgb(179, 174, 174);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .font-menu-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .menu-benefit{
+        color: rgb(179, 174, 174);
+        font-size: 13px;
+    }
+</style>
+
+<body>
+    <div id="app" style="display: flex;">
+        <div class="column-menu-wrapper">
+            <div class="menu-title simple"><span class="font-menu-title"> SIMPLE </span> </div>
+            <div class="menu-price">
+                <div
+                    style="color: white; margin:0; position: relative; left: 50%; transform: translateX(-30%); font-size:60px;">
+                    <span style="font-size: 18px;">$</span>29<span
+                        style="font-size: 32px; position: absolute; top:13px">99</span></div>
+                <p
+                    style="color: grey; font-size: 12px; position: absolute; top:65%;left: 50%; transform: translateX(-50%);">
+                    per month</p>
+            </div>
+            <div class="menu-benefit">
+                <div class="border">15 Email Accounts</div>
+                <div class="border">100GB Space</div>
+                <div class="border">1 Domain Name</div>
+                <div class="border">500GB Bandwidth</div>
+            </div>
+            <div class="border" style="color: white;"> Add to cart</div>
+        </div>
+        <div class="column-menu-wrapper">
+            <div class="menu-title standard"><span class="font-menu-title"> STANDARD </span> </div>
+            <div class="menu-price">
+                <div
+                    style="color: white; margin:0; position: relative; left: 50%; transform: translateX(-30%); font-size:60px;">
+                    <span style="font-size: 18px;">$</span>49<span
+                        style="font-size: 32px; position: absolute; top:13px">99</span></div>
+                <p
+                    style="color: grey; font-size: 12px; position: absolute; top:65%;left: 50%; transform: translateX(-50%);">
+                    per month</p>
+            </div>
+            <div class="menu-benefit">
+                <div class="border">15 Email Accounts</div>
+                <div class="border">100GB Space</div>
+                <div class="border">1 Domain Name</div>
+                <div class="border">500GB Bandwidth</div>
+            </div>
+            <div class="border" style="color: white;"> Add to cart</div>
+        </div>
+        <div class="column-menu-wrapper">
+            <div class="menu-title ultimate"><span class="font-menu-title"> ULTIMATE </span> </div>
+            <div class="menu-price">
+                <div
+                    style="color: white; margin:0; position: relative; left: 50%; transform: translateX(-30%); font-size:60px;">
+                    <span style="font-size: 18px;">$</span>79<span
+                        style="font-size: 32px; position: absolute; top:13px">99</span></div>
+                <p
+                    style="color: grey; font-size: 12px; position: absolute; top:65%;left: 50%; transform: translateX(-50%);">
+                    per month</p>
+            </div>
+            <div class="menu-benefit">
+                <div class="border">15 Email Accounts</div>
+                <div class="border">100GB Space</div>
+                <div class="border">1 Domain Name</div>
+                <div class="border">500GB Bandwidth</div>
+            </div>
+            <div class="border" style="color: white;"> Add to cart</div>
+        </div>
+    </div>
+</body>
+
+</html>
